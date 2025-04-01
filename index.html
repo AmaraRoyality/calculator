@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Calculator</title>
+    <title>Scientific Calculator</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -29,6 +29,15 @@
             <button onclick="clearDisplay()">C</button>
             <button onclick="calculate()">=</button>
             <button onclick="appendOperator('/')">/</button>
+
+            
+            <button onclick="appendScientific('sqrt')">√</button>
+            <button onclick="appendScientific('sin')">sin</button>
+            <button onclick="appendScientific('cos')">cos</button>
+            <button onclick="appendScientific('tan')">tan</button>
+            <button onclick="appendScientific('log')">log</button>
+            <button onclick="appendScientific('ln')">ln</button>
+            <button onclick="appendScientific('exp')">exp</button>
         </div>
     </div>
     <script src="script.js"></script>
